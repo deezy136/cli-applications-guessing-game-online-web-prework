@@ -6,6 +6,7 @@ def run_guessing_game
   while user_input != "exit" do
     # Compare input to random num
     # Print result: correct?
+    
     if user_input.to_i == comp_num
       puts "You guessed the correct number!"
     else
