@@ -1,8 +1,8 @@
 # Code your solution here!
 def run_guessing_game
-  
+    puts "Chose a number between 1 and 6"
   random_number = rand(6)
-  puts "Chose a number between 1 and 6"
+  
   user_input = gets.chomp 
   
   if user_input == random_number
