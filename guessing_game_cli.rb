@@ -6,7 +6,7 @@
       computer_number = rand(1..6)
       if guess == "exit"
         puts "Goodbye!"
-      elsif guess.to_i == computer_number
+      elsif guess == computer_number
           puts "You guessed the correct number!"
         elsif guess.to_i != computer_number
           puts "The computer guessed #{computer_number}."
